@@ -1,8 +1,8 @@
 setup.py
-Pistachio_restaurant.egg-info/PKG-INFO
-Pistachio_restaurant.egg-info/SOURCES.txt
-Pistachio_restaurant.egg-info/dependency_links.txt
-Pistachio_restaurant.egg-info/top_level.txt
+Totot_restaurant.egg-info/PKG-INFO
+Totot_restaurant.egg-info/SOURCES.txt
+Totot_restaurant_restaurant.egg-info/dependency_links.txt
+Totot_restaurant_restaurant.egg-info/top_level.txt
 app/__init__.py
 app/main.py
 app/api/__init__.py

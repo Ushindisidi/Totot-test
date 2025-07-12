@@ -17,7 +17,7 @@ from app.core.config import settings
 from app.api.endpoints import chat
 
 app = FastAPI(
-    title="Pistachio Restaurant Chatbot API",
+    title="Totot Restaurant Chatbot API",
     description="AI chatbot for restaurant-related questions using LangChain and Llama 2.",
     version="1.0.0",
 )
@@ -37,4 +37,4 @@ app.include_router(chat.router)
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the Pistachio Restaurant Chatbot API!"}
+    return {"message": "Welcome to the Totot Restaurant Chatbot API!"}

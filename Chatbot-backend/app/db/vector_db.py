@@ -9,194 +9,125 @@ from app.core.config import settings
 # For a real application, you would load this from a file (e.g., a markdown file)
 # or a database. For this example, we'll use a hardcoded string.
 RESTAURANT_DATA = """
-Pistachio by Masala Twist
+# Totot Traditional Food Hall (ቶቶት ገርጂ)
 
-A refined fusion of Indian and Middle Eastern flavors.
-
----
-
-**Menu Overview**
-
-A taste of Pistachio.
-
-**Main Course**
-Our hearty mains are crafted with rich, authentic flavors—offering both vegetarian and non-vegetarian options, from classic paneer curries to grilled meats and biryanis.
-Dish shown: Paneer Tikka Masala
-
-**Starter**
-Begin your journey with light, flavorful starters, from crispy vegetarian bites to spicy kebabs and Middle Eastern mezze.
-Dish shown: Pesto Kebab
-
-**Sides**
-Complete your meal with fresh-baked breads, seasoned rice, and savory accompaniments to pair perfectly with every main.
-Dish shown: Naan
-
-**Dessert**
-A sweet ending awaits with indulgent Indian and Middle Eastern treats: rich kulfi, delicate pastries, and fusion flavors you will remember.
+## 📍 Location & Contact
+- *Address:* 2R54+2W4, Gerji, Bole Sub-city, Addis Ababa, Ethiopia
+- *GPS Coordinates:* Approx. 9.0071° N, 38.8062° E
+- *Phone:* +251 11 646 0718
+- *Opening Hours:* 24 hours a day, 7 days a week
+- *Nearest Landmark:* In front of World Vision HQ, near Anbesa Garage
+- *Public Transport:* ~915m from Legehar Train Station
+- *Parking:* Street parking only (no on-site lot)
+- *Website:* http://www.totottraditionalrestaurant.com
 
 ---
 
-**Make a Reservation**
-Book your dinner experience in just a few clicks. A form is provided on the website, or you can use the contact details provided.
+## 🏛 Overview & Concept
+- *Established:* Around 2001 E.C.
+- *Name Origin:* “Totot” means “Let’s work” in the Gurage language.
+- *Cuisine Focus:* Southern Ethiopian and Gurage cuisine.
+- *Experience:* A full cultural immersion—food, drink, dance, music, coffee ceremony.
 
 ---
 
-**Our Story**
-At Pistachio by Masala Twist, food is more than a flavor—it’s a feeling.
-Founded by the team behind the beloved Masala Twist, Pistachio offers a modern take on traditional Indian and Lebanese cuisine. Warm yet refined, our space is designed to celebrate culture, spice, and soul.
-From slow-cooked curries to smoky grilled meats and fresh vegetarian thalis, our kitchen blends authenticity with a contemporary touch — crafted for those who appreciate thoughtful dining.
+## 📋 Full Menu & Prices (ETB)
 
-**Core Values:**
-* Freshness: Ingredients sourced daily, prepared with care.
-* Culture: Flavors inspired by heritage, served with heart.
-* Experience: Every plate is part of a larger story.
+| Dish                     | Description                                                         | Price (ETB) |
+|--------------------------|---------------------------------------------------------------------|-------------|
+| *Traditional Special Lunch* | Mixed traditional meat dishes                                      | 480         |
+| *Fasting Special*      | Vegan combination plate of national dishes                         | 350         |
+| *Chikina Tibs*         | Sautéed beef fillet with onions                                    | 480         |
+| *Zeilzil Tibs*         | Sliced beef with garlic and onions                                 | 480         |
+| *Yebeg Tibs*           | Lamb sautéed with onions and spices                                | 480         |
+| *Yebeg Wot*            | Traditional spicy lamb stew                                        | 450         |
+| *Doro Wot*             | Ethiopian chicken stew with boiled egg                             | 450         |
+| *Kitfo*                | Minced raw beef with spiced butter and mitmita                     | 480         |
+| *Totot Kitfo*          | Special house-style version of Kitfo                               | 500         |
+| *Tikur Kitfo*          | Premium Kitfo cooked in seasoned butter                            | 500         |
+| *Gored Gored*          | Cubed raw beef with butter and spices                              | 500         |
+| *Gomen Kitfo*          | Minced cabbage with spiced butter (vegan)                          | 450         |
+| *Cow Tripa (Tripe)*    | Beef tripe stew with onions and carrots                            | 350         |
+| *Gomen Besiga*         | Sautéed cabbage and meat in garlic and onion                       | 400         |
+| *Bozena Shiro*         | Chickpea stew with meat chunks                                     | 320         |
+| *Fintafinto*           | Cabbage cooked with minced beef in seasoned butter                 | 470         |
+| *Kocho*                | False banana flatbread (side dish)                                 | 350         |
+| *Zemamujet*            | Cottage cheese with local cabbage                                  | 350         |
 
----
-
-**Featured Dishes**
-(Pistachio’s most celebrated creations - curated for flavor, flair, and finesse)
-
-* **Braised Mutton Champ Maple Kokum Glaze**
-    Braised goat rack with maple and kokum syrup. Kokum plant, called 'garcinia indica', is grown in the Kokan regions of Maharashtra.
-
-* **Chilli Chicken**
-    Succulent boneless chicken tossed in spicy semi-dry sauce, garnished with spring onions.
-    Ksh 1410
-
-* **Prawns Kolapuri**
-    A classic dish of prawns sautéed with in-house spicy Kolapuri spices.
-    Ksh 580
-
-* **Fish Chilli Fry**
-    Red snapper marinated with Chinese spices, deep-fried, tossed with bell pepper, onions, and a dash of lemon.
-    Ksh 1300
-
-* **Chicken Biryani**
-    Long grain basmati rice, succulent chicken, and a mélange of extra Indian spices cooked in a sealed deg that keeps the flavors intact.
-    Ksh 780
-
-* **Chicken Biryani**
-    The most trending Indian dish across the globe which is proud of Indian cuisine! Boneless chicken cooked in tandoor, served with rich makhani gravy, dusted off with dehydrated fenugreek.
-    Ksh 1050
-
-* **Mac And Cheese Arancini**
-    Macaroni and Cheese made in arancini dumpling, served with tomato salsa—our humble take on Italian arancini.
-    Ksh 520
-
-* **Chilli Garlic Button Mushrooms**
-    Fresh button mushrooms tossed in sharp chili dry spices, topped with spring onions—a must-try for every mushroom lover.
-    Ksh 320
+> All prices include 15% VAT and service charge. Prices may vary by branch or during performances.
 
 ---
 
-**Reviews**
-(What Our Guests Are Saying)
+## 🍷 Drinks
+- *Tej:* Traditional Ethiopian honey wine
+- *Areke (Areqe):* Strong local liquor
+- *Draft Beer & Local Brands*
+- *Soft drinks & Water*
+- *Coffee Ceremony:* Traditional Ethiopian coffee experience
 
-* “The butter chicken is absolutely phenomenal. Flavorful, rich, and unforgettable!”
-    - Aisha K.
-* “Loved the ambiance and warm service. Definitely coming back.”
-    - David M.
-
----
-
-**Feedback**
-A feedback form is provided on the website.
+Beer: ~37 ETB per bottle, Water: ~59 ETB
 
 ---
 
-**Contact Us**
-14 Riverside Drive, Nairobi
-+254 712 345678
-info@pistachionairobi.com
+## 🧭 Directions
+- *Google Maps:* Search Totot Traditional Food Hall Gerji
+- *From Bole Airport:* 10–15 minutes by taxi via Bole–Gerji road.
+- *Landmarks:* Opposite World Vision office, close to Anbesa Garage
+- *Recommended Transport:* Ride-hailing apps like Ride or Feres.
 
 ---
 
-**Opening Hours**
-Mon-Fri: 11:00 AM - 10:00 PM
-Sat-Sun: 12:00 PM - 11:00 PM
+## 🎶 Atmosphere & Entertainment
+- *Decor:* Traditional huts, woven décor, low tables, cultural motifs
+- *Live Shows:* Every night—tribal dances, music, and audience participation
+- *Best Time to Visit:* Sunday evenings for full entertainment vibe
+- *Coffee Ceremony:* Available upon request; includes roasting, serving
 
 ---
 
-**Our Full Menu**
-(Explore our Vibrant Indian and Middle Eastern Cuisine)
-
-**Mains**
-* **Hand Pulled Butter Chicken Makhani**
-    The most trending Indian dish across the globe which is proud of Indian cuisine! Boneless chicken cooked in tandoor, served with rich makhani gravy, dusted off with dehydrated fenugreek.
-
-* **Prawns Kolapuri**
-    A classic dish of prawns sautéed with in-house spicy Kolapuri spices.
-
-* **Hyderabadi Chicken**
-    Succulent chicken pieces cooked in tandoor, simmered off with spices of Hyderabad.
-
-* **Pan Toss Masala Shrooms Truffle Haze**
-    Assorted mushrooms with cream garlic truffle oil and served with aromatic truffle oil haze.
-
-* **Paneer Bhurji**
-    Minced cottage cheese stir-fried with onions and tomato, lightly spiced with freshly pounded coriander and chilies.
-
-* **Amritsari Malai Kofta**
-    Cottage cheese dumplings, khoya, raisin, nuts, green chilies, cashew gravy, and can be served Jain on request.
-
-**Starters**
-* **Braised Mutton Champ Maple Kokum Glaze**
-    Braised goat rack with maple and kokum syrup. Kokum plant, called 'garcinia indica', is grown in the Kokan regions of Maharashtra.
-
-* **Chilli Chicken**
-    Crispy fried chicken tossed in a fiery Indo-Chinese sauce made with garlic, soy, and chili, garnished with spring onions. A bold fusion favorite, perfect for spice lovers.
-
-* **Chilli Garlic Button Mushrooms**
-    Juicy button mushrooms stir-fried in a zesty garlic-chili sauce, finished with a hint of soy and a sprinkle of spring onions. A savory delight with a spicy kick.
-
-* **Fish Chilli Fry**
-    Red snapper marinated with Chinese spices, deep-fried, tossed with bell pepper, onions, and a dash of lemon.
-
-* **Mac And Cheese Arancini**
-    Macaroni and Cheese made in arancini dumpling, served with tomato salsa—our humble take on Italian arancini.
-
-* **Pesto Kebab**
-    Kebabs made of Italian pesto basil sauce, flavored with roasted walnuts, almonds, and cashew nuts, and can be served Jain on request.
-
-**Sides**
-* **3 Cheese Naan Basil Butter**
-    Mozzarella, parmesan, and smoked cheddar melted into soft tandoor-baked naan, finished with a brush of aromatic basil butter—rich, gooey, and indulgent.
-
-* **Naan**
-    Fluffy, hand-stretched flatbread cooked in the tandoor, offering a smoky char and the perfect companion to hearty Indian gravies.
-
-* **Jeera Rice**
-    Fragrant basmati rice tempered with roasted cumin seeds and ghee—a comforting, flavorful side that complements any main.
-
-* **Mushroom Corn Rice**
-    A colorful medley of mushrooms, corn, and aromatic rice tossed with Indian spices—a flavorful, hearty vegetarian delight.
-
-* **Plain Steam Rice**
-    Steamed to soft, fluffy perfection, this simple staple lets the bold flavors of your curry shine through.
-
-* **Cucumber and Mint Raita**
-    Cool cucumber, crisp mint, and creamy yogurt blended into a refreshing side dish that balances spice with every bite.
-
-**Desserts**
-* **Assorted Ice Cream**
-    A classic medley of rich, creamy ice cream flavors—the perfect sweet finish to any meal, served chilled and garnished with mint.
-
-* **Gajar Halwa**
-    A warm North Indian dessert made from slow-cooked grated carrots in ghee and milk, sweetened and topped with roasted cashews and almonds.
-
-* **Indian Masala Chai Ice Cream**
-    A bold twist on dessert—smooth ice cream infused with the warming spices of masala chai: cardamom, cinnamon, clove, and tea essence.
-
-* **Gulab Jamun**
-    Soft milk-solid dumplings soaked in fragrant rose and cardamom syrup—an indulgent, melt-in-my-mouth delight.
-
-* **Malai Kulfi**
-    Traditional Indian ice cream made with condensed milk and cream, infused with cardamom and pistachio, frozen on sticks for nostalgic flair.
+## ✅ Visitor Tips
+- Arrive before 7:00 PM to avoid crowd surges
+- Reserve a table for group visits or weekend nights
+- Bring cash – cards may not always be accepted
+- No on-site parking; street parking only
+- Expect performances to raise noise levels in the evening
 
 ---
 
-**Pistachio Ice Cream** (Special Highlight)
-Creamy and nutty with a luxurious texture, this pistachio-flavored treat offers subtle sweetness and a touch of crunch in every spoonful.
+## ⭐ Ratings & Reviews
+- *Google:* ~4.1/5 based on 360+ reviews
+- *TripAdvisor:* Mixed reviews praising food & culture, some criticize service
+- *Reddit Review:* “Has the best t’ej in town!”
+- *Positive Notes:*
+  - Best Kitfo in Addis
+  - Generous meat portions
+  - Authentic experience
+- *Criticisms:*
+  - Expensive by local standards
+  - Occasional service delays or attitude issues
+  - One reviewer claimed illness (isolated case)
+
+---
+
+## 🏆 Awards & Recognition
+- 🥇 *Best Restaurant in Ethiopia – 2020*  
+  World Culinary Awards
+
+---
+
+## 🧾 Summary
+
+```text
+Name:           Totot Traditional Food Hall (Totot Kitfo)
+Location:       Gerji, Bole Sub-city, Addis Ababa, Ethiopia
+Phone:          +251 11 646 0718
+Hours:          Open 24/7
+Cuisine:        Ethiopian (Gurage, Kitfo, Tibs, Wot)
+Menu Price:     320–500 ETB
+Drinks:         Tej, Areqe, Beer, Coffee
+Specials:       Live dance, music, coffee ceremony
+Rating:         ~4.1/5 based on 360 reviews
+Reservations:   Recommended for weekends
 """
 
 # Initialize OpenAI Embeddings

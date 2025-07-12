@@ -125,7 +125,7 @@ async def chat_endpoint(request: ChatRequest):
         memory=memory
     )
 
-    bot_response = "Oops! The Pistachio Assistant is having trouble right now. Please try again later."
+    bot_response = "Oops! The Totot Assistant is having trouble right now. Please try again later."
 
     if not inference_lock.acquire(blocking=False):
         print("Rapid request detected. Model is busy.")

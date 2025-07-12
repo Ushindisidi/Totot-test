@@ -22,7 +22,7 @@ embedding_dimension = 384
 
 # Pinecone setup
 pc = PineconeClient(api_key=PINECONE_API_KEY)
-index_name = "pistachio"
+index_name = "Totot"
 
 if index_name not in pc.list_indexes().names():
     print(f"Creating Pinecone index: {index_name}")
