@@ -3,11 +3,7 @@ uvicorn
 pydantic
 python-dotenv
 langchain
-langchain-community
 langchain-huggingface
-langchain-pinecone
-sentence-transformers
-
-pymupdf
 openai
 langchain-openai
+faiss-cpu
