@@ -9,4 +9,3 @@ openai
 langchain-openai
 faiss-cpu
 
--e
